@@ -8,6 +8,7 @@ import (
 	"github.com/alanpramil7/go-auth-service/internal/models"
 )
 
+// Function to handle register route
 func registerHandler(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 	var creds models.Credentials
 
